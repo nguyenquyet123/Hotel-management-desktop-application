@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="qlks.ui.MainForm">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="654" height="403"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <toolbar id="6f4df">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="cbef9" class="javax.swing.JButton" binding="btnDangXuat">
+            <constraints/>
+            <properties>
+              <text value="Dang Xuat"/>
+            </properties>
+          </component>
+          <component id="d76a7" class="javax.swing.JButton" binding="btnDoiMatKhau">
+            <constraints/>
+            <properties>
+              <text value="Doi mat Khau"/>
+            </properties>
+          </component>
+          <component id="c8a78" class="javax.swing.JButton" binding="btnTaoTaiKhoan">
+            <constraints/>
+            <properties>
+              <text value="Tao Tai Khoan"/>
+            </properties>
+          </component>
+          <component id="7df5" class="javax.swing.JButton" binding="btnTroGiup">
+            <constraints/>
+            <properties>
+              <text value="Tro Giup"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+      <vspacer id="474da">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <grid id="65473" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="917" height="463"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="b5b95" binding="jpnMenu" layout-manager="GridLayoutManager" row-count="9" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="1">
+            <margin top="50" left="5" bottom="50" right="0"/>
+            <constraints border-constraint="West"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="58133" binding="jpnTrangChu" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="100" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-141210"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="90472" class="javax.swing.JLabel" binding="lblTrangChu">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="13" style="1"/>
+                      <text value="Trang Chu"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="358b7" binding="jpnDatPhong" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="100" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-141210"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="eabc1" class="javax.swing.JLabel" binding="lblDatPhong">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="13" style="1"/>
+                      <text value="Dat Phong"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="a4e05" binding="jpnQL_Phong" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="100" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-141210"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="ca44f" class="javax.swing.JLabel" binding="jlbPhong">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="13" style="1"/>
+                      <text value="Quan Ly Phong"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="af2d7" binding="jpnQL_NhanVien" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="100" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-141210"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="c31fe" class="javax.swing.JLabel" binding="jlbNhanVien">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <background color="-141210"/>
+                      <font size="13" style="1"/>
+                      <text value="Quan Ly Nhan Vien"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="86b72" binding="jpnQL_DichVu" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="100" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-141210"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="b9e03" class="javax.swing.JLabel" binding="jlbDichVu">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="13" style="1"/>
+                      <text value="Quan Ly Dich Vu"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="9c500" binding="jpnQL_KhachHang" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="100" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-141210"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="68a80" class="javax.swing.JLabel" binding="jlbKhachHang">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="13" style="1"/>
+                      <text value="Quan Ly Khach Hang"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="67811" binding="jpnQL_HoaDon" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="100" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-141210"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="ca982" class="javax.swing.JLabel" binding="jlbHoaDon">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="13" style="1"/>
+                      <text value="Quan Ly Hoa Don"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="a56a6" binding="jpnQL_TaiKhoan" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="100" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-141210"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="446e7" class="javax.swing.JLabel" binding="jlbTaiKhoan">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="13" style="1"/>
+                      <text value="Quan Ly Tai Khoan"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="ee93f" binding="jpnThongKe" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="100" height="50"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-141210"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="352a1" class="javax.swing.JLabel" binding="jlbThongKe">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="13" style="1"/>
+                      <text value="Thong Ke Doanh Thu"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="a1df4" binding="jbnView" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-933326"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,58 @@
+<component name="ArtifactManager">
+  <artifact name="QuanLyKhachSan:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/QuanLyKhachSan_jar</output-path>
+    <root id="root">
+      <element id="archive" name="QuanLyKhachSan.jar">
+        <element id="module-output" name="QuanLyKhachSan" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/mssql-jdbc-11.2.0.jre17.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/ant-1.7.1.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/ecj-4.4.2.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/junit-3.7.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/core-3.3.3.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/barcode4j-2.1.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/batik-css-1.12.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/batik-dom-1.12.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/batik-ext-1.12.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/batik-gvt-1.12.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/batik-xml-1.12.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/jaxb-api-2.3.1.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/jcommon-1.0.23.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/batik-anim-1.12.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/batik-i18n-1.12.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/batik-util-1.12.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/commons-cli-1.0.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/itext-2.1.7.js7.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/xml-apis-1.4.01.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/commons-io-1.3.1.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/commons-lang-1.0.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/commons-text-1.9.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/batik-bridge-1.12.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/batik-parser-1.12.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/batik-script-1.12.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/jar_files_Dynamic.zip" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/jar_files_jax_api.zip" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/jfreechart-1.0.19.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/ant-launcher-1.7.1.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/batik-svg-dom-1.12.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/commons-lang3-3.11.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/batik-awt-util-1.12.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/bcprov-jdk15on-1.62.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/jackson-core-2.10.0.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/xml-apis-ext-1.3.04.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/batik-constants-1.12.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/commons-digester-2.1.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/jasperreports-6.12.2.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/commons-logging-1.1.1.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/commons-beanutils-1.9.4.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/jackson-databind-2.10.0.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/xmlgraphics-commons-2.4.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/commons-collections4-4.2.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/commons-collections-3.2.2.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/dynamicreports-core-6.12.1.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/jackson-annotations-2.10.0.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/javax.activation-api-1.2.0.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../../Custom/New folder/avalon-framework-impl-4.2.0.jar" />
+    </root>
+  </artifact>
+</component>
